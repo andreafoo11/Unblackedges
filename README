@@ -1,0 +1,47 @@
+/********************************************
+* SECTION A: iii
+* Comp 40 - Spring 2020
+* Hw2: iii
+* Andrea Foo (afoo01) and Erena Inoue(einoue01)
+* Due: February 10, 2020
+*
+* README: Documentation of Comp40 Homework 2 iii
+*********************************************/
+
+SECTION B: ACKNOWLEDGEMENTS
+We got help from the office hours TAs Ann Marie, Imogen Eads, Jopsh, Alexander,
+James, Andreas, and Grant.
+
+SECTION C: PROGRAM PURPOSE
+The purpose of this homework was to create two interfaces and
+implementations of UArray2 and Bit2, using Hanson's UArray and Bit
+interfaces. UArray2 and Bit2 are essentially the 2D array version.
+Another purpose was to create a working program (Sudoku and Unblackedges)
+that use the interfaces that we have created. Sudoku uses UArray2 interface
+and checks if the given protable gray map is a sudoku solution or
+not. As for Unblackedges, the program removes any black edge pixels
+from the given portable bit map.
+
+SECTION D: Aspects that have been implemented correctly
+    UArray2.h/UArray2.c
+        - Successfully creates a 2D unboxed array using Hanson's
+        UArray structure. Contains functions such as create, free,
+        and map a function over 2D array.
+
+    Bit2.h/Bit2.c
+        - Successfully creates a 2D bit array using Hanson's
+        bit structure. Contains functions such as create, get,
+        put, and map a function over 2D bit array.
+
+    sudoku.c:
+        - Given a pgm file with sudoku solution over it, the
+        program successfuly checks if the solution is correct
+        by checking each row, column, and 3x3 box for repeating
+        numbers.
+
+    unblackedges.c:
+        - Given a pbm file containing an image made of black
+        and white pixels, this program removes the black edges
+        and convert them to white pixels.
+
+    Number of hours worked on the homework: 25 hours
